@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block styles %}
+    <link rel="stylesheet" type="text/css" href="static/styles/posts.css">
+{% endblock %}
+
+{% block title %}
+    European Adventures
+{% endblock %}
+
+{% block content %}
+  {{post.render() | safe}}
+{% endblock %}

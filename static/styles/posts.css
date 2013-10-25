@@ -1,0 +1,28 @@
+.post
+{
+    width:inherit;
+    padding:10px;
+    position:relative;
+}
+
+.post-line
+{
+    position:inherit;
+    background-color:#a2a9af;
+    border-radius:10px;
+    padding:5px;
+}
+
+.post-subject
+{
+    color:black;
+    font-size:24px;
+    text-decoration:none;
+}
+
+.post-date
+{
+    position:absolute;
+    right: 15px;
+    bottom: 9px;
+}

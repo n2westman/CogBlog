@@ -1,0 +1,40 @@
+body
+{
+    width:750px;
+    margin:0 auto;
+    font-family: 'Port Lligat Slab', serif;
+}
+
+#navbar
+{
+    padding:20px;
+    position:relative;
+}
+
+#title
+{
+    background-color:#778899;
+    border-radius:0 0 10px 10px;
+    color:black;
+    font-size:30px;
+    padding:20px;
+    text-decoration:none;
+}
+
+#linkbar
+{
+    font-size:20px;
+    position:absolute;
+    right:10px;
+    bottom:20px;
+}
+
+
+form
+{
+    padding:10px;
+}
+.error
+{
+    color:red;
+}
